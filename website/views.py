@@ -16,13 +16,13 @@ def contact(request):
 
         #Send Email
 
-        send_mail(
-            message_name, #subject
-            message, #message
-            message_email, #from 
-            ['pigson85@gmail.com'], #to email
-            fail_silently=False,
-            )
+        #send_mail(
+            #message_name, #subject
+            #message, #message
+            #message_email, #from 
+            #['pigson85@gmail.com'], #to email
+            #fail_silently=False,
+            #)
 
         return render(request, 'contact.html', {'message_name':message_name})
 

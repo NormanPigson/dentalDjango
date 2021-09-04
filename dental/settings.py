@@ -112,10 +112,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
 
-EMAIL_HOST = 'smtp.google.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'pigson85@gmail.com'
-EMAIL_HOST_PASSWORD = 'Timeout1985'
+EMAIL_HOST = ''
+EMAIL_PORT = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 #EMAIL_USE_SSL = True
 
